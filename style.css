@@ -48,6 +48,19 @@ body{
     font-weight: 600;
     letter-spacing: 0.7px;
     color: black;
+    padding: 2px;
+}
+
+.nav-links a:hover{
+    color: rgb(248, 79, 141);
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+
+    transition: 0.45s ease-in-out;
+}
+.nav-links a:hover .fas{
+    transition: 0.45s ease-in-out;
+    color: rgb(248, 79, 141);
 }
 .nav-links .fas{
     font-size: 30px;
@@ -61,6 +74,7 @@ body{
 
 .top{
     display: flex;
+    flex-wrap: wrap;
 }
 .top .top-left{
     width: 50%;
@@ -406,5 +420,25 @@ footer .social a:hover{
     font-size: 30px;
     color: white;
     transition: 0.2s ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+/*============================== responsive=================================*/
+
+
+@media (max-width:688){
+
+
+    .top {
+        flex-direction: column;
+    }
+
 
 }
