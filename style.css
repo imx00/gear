@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    color: #3A3A3A;
+}
+
+
+
+/* =========================================nav bar  ==================================*/
+
+.text h2{
+    font-size: 25px;
+    font-weight: 700;
+    word-spacing: 2.7px;
+    letter-spacing: 0.7px;
+
+}
+.top-nav{
+    display: flex;
+    margin: 20px 80px 70px 80px;
+
+    
+}
+.text{
+    width: 50%;
+    justify-content: flex-start;
+
+    
+}
+.nav-links{
+
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 35px;
+    align-items: center;
+    margin: 0;
+    padding-right: 80px;
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    color: black;
+}
+.nav-links .fas{
+    font-size: 30px;
+    color: black;
+}
+
+
+
+/* =========================================top section ====================================*/
+
+
+.top{
+    display: flex;
+}
+.top .top-left{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 15% 0 5% 5%;
+
+}
+
+.top .top-right{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.top .top-right img{
+
+    width: 100%;
+    
+
+}
+
+.top .top-left h1{
+    font-size: 52px;
+    font-weight: 800;
+
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.3em;
+    
+}
+.top .top-left p{
+    margin: 40px 0 55px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    line-height: 1.4em;
+    word-spacing: 3.5px;
+    color: #555555;
+    padding: 0;
+
+}
+.top .top-left a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 41px 14px 27px;
+    border-radius: 25px;
+    border: 2px solid rgb(248, 79, 141);
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 3px;
+    letter-spacing: 0.6px;
+}
+.top .top-left a:hover{
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(224, 44, 109);
+    transition: 0.45s linear;
+    cursor: pointer;
+}
+
+.top .top-left a:hover .fas.fa-chevron-right.top{
+    color: white;
+    transition: 0.6s linear;
+}
+
+.fas.fa-chevron-right.top{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    position: absolute;
+    padding: 3.1px 0 3.1px 10px;
+
+    
+}
+
+
+/* ===================================logo section=============================== */
+
+
+.logos{
+    margin: 100px 100px 0px;
+    border-top: 1px solid #8d8d8d;
+    border-bottom: 1px solid #8d8d8d;
+
+}
+
+.logos .logo-img{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.logos .logo-img img{
+    display: block;
+
+}
+
+
+
+
+/* ===================================product collection ==============================================*/
+
+
+
+.collection{
+    margin: 140px 0 0; 
+    padding: 20px 80px;
+    
+}
+
+.collection > h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 80px;
+    letter-spacing: 0.6px;
+    word-spacing: 3.1px;
+
+}
+
+
+.all-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    
+}
+
+.card{
+    width: 330px;
+    background-color: rgb(221, 221, 221);
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+
+.card:hover{
+    background-color: white;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    transition: 0.48s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.card img{
+    width: 100%;
+}
+
+.card h2{
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+    margin: 15px 0;
+
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.card p{
+    letter-spacing: 0.6px;
+    word-spacing: 3px;
+    line-height: 1.3em;
+    font-weight: 600;
+
+    color: #787885;
+}
+
+.card .rate-star .rate{
+    display: inline-block;
+}
+
+.fas{
+    font-size: 12px;
+    color: goldenrod ;
+}
+.rate-star .rate{
+    font-size: 15px;
+    padding-left: 10px;
+    margin: 0;
+    color: rgb(46, 46, 46);
+}
+
+#see-more{
+    text-align: end;
+    margin: 50px 70px 50px 0;
+}
+
+.collection #see-more a .fas.fa-chevron-right{
+    font-size: 20px;
+    color: rgb(224, 44, 109);
+    
+}
+
+.collection #see-more a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    color: rgb(224, 44, 109);
+    margin: 50px 0;
+    padding: 14px 41px 14px 27px; 
+    
+    
+}
+
+
+.collection #see-more a:hover{
+
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+hr{
+    border: 1px solid #a5a5a5;
+}
+
+
+
+/*====================================== client review============================================= */
+
+
+
+.client-review .review{
+    filter: opacity(0.7);
+    filter: blur(1px);
+    padding: 2%;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+   
+
+}
+
+.client-review .review:hover{
+    background-color: #f4f4ff;
+    filter: blur(0);
+    filter: opacity(1);
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    transform: scale(1.15);
+    transition: 0.6s ease-in-out;
+
+}
+.all-review{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.client-review > h2{
+
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    letter-spacing: 0.6px;
+    word-spacing: 3.1px;
+}
+
+
+.review-img{
+    width: 30%;
+}
+.review .review-info{
+    text-align: center;
+    width: 70%;
+}
+
+.review-img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 60px;
+}
+.client-review .review{
+    display: flex;
+}
+
+
+.client-review .review p{
+    font-weight: 600;
+    line-height: 1.1em;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+
+}
+.client-review .review h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*============================================== footer======================================== */
+
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(48, 48, 49);
+    color: white;
+    text-align: center;
+}
+
+footer h1{
+    padding-top: 60px;
+    font-size: 25px;
+    word-spacing: 3.3px;
+    letter-spacing: 0.55px;
+    font-weight: 700;
+
+}
+
+footer p{
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+    line-height: 1.75em;
+}
+
+footer .social{
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+footer .social a{
+    color: rgb(150, 150, 150);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+footer .social a:hover{
+    font-size: 30px;
+    color: white;
+    transition: 0.2s ease-in-out;
+
+}
