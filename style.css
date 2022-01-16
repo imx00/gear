@@ -51,6 +51,20 @@ body{
     padding: 2px;
 }
 
+.nav-links .nav-icon .fas{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-links .nav-icon a:hover{
+    color: rgb(248, 79, 141);
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    transition: 0.45s ease-in-out;
+}
+
 .nav-links a:hover{
     color: rgb(248, 79, 141);
     border-bottom: 1px solid;
@@ -276,12 +290,13 @@ body{
 }
 
 #see-more{
-    display: inline-block;
-    text-align: end;
-    
+    display: flex;
+    justify-content: flex-end;
+       
 }
 
-.collection #see-more a .fas.fa-chevron-right{
+
+.collection #see-more a .fas.fa-arrow-right{
     font-size: 20px;
     color: rgb(224, 44, 109);
     
@@ -295,7 +310,7 @@ body{
     word-spacing: 3px;
     color: rgb(224, 44, 109);
     margin: 50px 0;
-    /* padding: 14px 41px 14px 27px;  */
+    padding: 14px 41px 14px 27px; 
     
     
 }
@@ -463,17 +478,26 @@ footer .social a:hover{
 
     width: 50%;
     justify-content: flex-start;
+    
 }    
+.text h2{
+    font-size: 22px;
+}
 
 .nav-links{
 
     width: 50%;
     display: flex;
     justify-content: flex-end;
-    column-gap: 20px;
     align-items: center;
     margin: 0 ;
     padding: 0 ;  
+    column-gap: 8px;
+}
+.nav-links a{
+    font-size: 12px;
+    
+
 }
 
 .top{
@@ -601,6 +625,6 @@ footer .social a:hover{
     }
 
     #see-more{
-        text-align: center;
+        justify-content: center;
     }
 }
