@@ -278,7 +278,7 @@ body{
 #see-more{
     display: inline-block;
     text-align: end;
-    /* margin: 50px 70px 50px 0; */
+    
 }
 
 .collection #see-more a .fas.fa-chevron-right{
@@ -451,7 +451,7 @@ footer .social a:hover{
 
 
 
-@media (max-width:912px){
+@media (max-width:912px) {
 
 .top-nav{
 
@@ -473,12 +473,8 @@ footer .social a:hover{
     column-gap: 20px;
     align-items: center;
     margin: 0 ;
-    padding: 0 ;
-    
+    padding: 0 ;  
 }
-
-
-
 
 .top{
     width: 100%;
@@ -489,12 +485,14 @@ footer .social a:hover{
     margin: 0;
     
 }
+
 .top .top-left{
     text-align: center;
     width: 100%;
     padding: 5% 5% 10% 5%;
 
 }
+
 .top .top-right{
     text-align: center;
     padding: 10%;
@@ -510,21 +508,19 @@ footer .social a:hover{
     justify-content: space-around;
 }
 
-
 .all-card{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    
-    
-
-   
+    grid-template-columns: repeat(2, 1fr);  
 }
+
 .all-review{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 60px;
-    margin: 60px;
     text-align: center;
+   
+}
+
 }
 
 
@@ -543,7 +539,7 @@ footer .social a:hover{
     .nav-links{
 
 
-        display: none;
+    display: none;
 
     }
 
@@ -604,6 +600,7 @@ footer .social a:hover{
         text-align: center;
     }
 
- 
-
+    #see-more{
+        text-align: center;
+    }
 }
